@@ -1,0 +1,38 @@
+name: wallet_app
+description: "Mwanga Hakika Bank - Digital Wallet Mobile App"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  provider: ^6.1.2
+
+  # HTTP Client
+  http: ^1.2.2
+
+  # Local Storage
+  shared_preferences: ^2.3.3
+
+  # UI Components
+  flutter_svg: ^2.0.16
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
