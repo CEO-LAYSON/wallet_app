@@ -19,6 +19,9 @@ class Wallet {
   }
 
   String get formattedBalance => '$currency ${balance.toStringAsFixed(2)}';
+
+  // Alias for walletNumber compatibility
+  String get walletNumber => walletId;
 }
 
 /// Transaction model
