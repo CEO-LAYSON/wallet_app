@@ -162,7 +162,7 @@ The app uses the following backend endpoints:
 ### Admin Account
 
 ```
-Email: admin@mwanga.co.tz
+Email: admin@wallet.com
 Password: admin123
 ```
 
